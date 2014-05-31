@@ -14,14 +14,16 @@
 		04B9D813193A2D7B00D2790A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D812193A2D7B00D2790A /* main.m */; };
 		04B9D817193A2D7B00D2790A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D816193A2D7B00D2790A /* AppDelegate.m */; };
 		04B9D81A193A2D7B00D2790A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B9D818193A2D7B00D2790A /* Main.storyboard */; };
-		04B9D81D193A2D7B00D2790A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D81C193A2D7B00D2790A /* FirstViewController.m */; };
-		04B9D820193A2D7B00D2790A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D81F193A2D7B00D2790A /* SecondViewController.m */; };
 		04B9D822193A2D7B00D2790A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B9D821193A2D7B00D2790A /* Images.xcassets */; };
 		04B9D829193A2D7B00D2790A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B9D828193A2D7B00D2790A /* XCTest.framework */; };
 		04B9D82A193A2D7B00D2790A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B9D806193A2D7B00D2790A /* Foundation.framework */; };
 		04B9D82B193A2D7B00D2790A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B9D80A193A2D7B00D2790A /* UIKit.framework */; };
 		04B9D833193A2D7B00D2790A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B9D831193A2D7B00D2790A /* InfoPlist.strings */; };
 		04B9D835193A2D7B00D2790A /* IndenticonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D834193A2D7B00D2790A /* IndenticonDemoTests.m */; };
+		04B9D840193A306900D2790A /* IdenticonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D83F193A306900D2790A /* IdenticonView.m */; };
+		04B9D843193A350600D2790A /* BigIndenticonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D842193A350600D2790A /* BigIndenticonViewController.m */; };
+		04B9D846193A41A700D2790A /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D845193A41A700D2790A /* SearchTableViewController.m */; };
+		04B9D849193A436100D2790A /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9D848193A436100D2790A /* SearchResultCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +48,20 @@
 		04B9D815193A2D7B00D2790A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04B9D816193A2D7B00D2790A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04B9D819193A2D7B00D2790A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04B9D81B193A2D7B00D2790A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		04B9D81C193A2D7B00D2790A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		04B9D81E193A2D7B00D2790A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		04B9D81F193A2D7B00D2790A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		04B9D821193A2D7B00D2790A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04B9D827193A2D7B00D2790A /* IndenticonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndenticonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B9D828193A2D7B00D2790A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		04B9D830193A2D7B00D2790A /* IndenticonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IndenticonDemoTests-Info.plist"; sourceTree = "<group>"; };
 		04B9D832193A2D7B00D2790A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B9D834193A2D7B00D2790A /* IndenticonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndenticonDemoTests.m; sourceTree = "<group>"; };
+		04B9D83E193A306900D2790A /* IdenticonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdenticonView.h; sourceTree = "<group>"; };
+		04B9D83F193A306900D2790A /* IdenticonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdenticonView.m; sourceTree = "<group>"; };
+		04B9D841193A350600D2790A /* BigIndenticonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigIndenticonViewController.h; sourceTree = "<group>"; };
+		04B9D842193A350600D2790A /* BigIndenticonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigIndenticonViewController.m; sourceTree = "<group>"; };
+		04B9D844193A41A700D2790A /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		04B9D845193A41A700D2790A /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+		04B9D847193A436100D2790A /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		04B9D848193A436100D2790A /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,15 +121,19 @@
 		04B9D80C193A2D7B00D2790A /* IndenticonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04B9D841193A350600D2790A /* BigIndenticonViewController.h */,
+				04B9D842193A350600D2790A /* BigIndenticonViewController.m */,
+				04B9D844193A41A700D2790A /* SearchTableViewController.h */,
+				04B9D845193A41A700D2790A /* SearchTableViewController.m */,
 				04B9D815193A2D7B00D2790A /* AppDelegate.h */,
 				04B9D816193A2D7B00D2790A /* AppDelegate.m */,
 				04B9D818193A2D7B00D2790A /* Main.storyboard */,
-				04B9D81B193A2D7B00D2790A /* FirstViewController.h */,
-				04B9D81C193A2D7B00D2790A /* FirstViewController.m */,
-				04B9D81E193A2D7B00D2790A /* SecondViewController.h */,
-				04B9D81F193A2D7B00D2790A /* SecondViewController.m */,
 				04B9D821193A2D7B00D2790A /* Images.xcassets */,
 				04B9D80D193A2D7B00D2790A /* Supporting Files */,
+				04B9D83E193A306900D2790A /* IdenticonView.h */,
+				04B9D83F193A306900D2790A /* IdenticonView.m */,
+				04B9D847193A436100D2790A /* SearchResultCell.h */,
+				04B9D848193A436100D2790A /* SearchResultCell.m */,
 			);
 			path = IndenticonDemo;
 			sourceTree = "<group>";
@@ -254,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B9D820193A2D7B00D2790A /* SecondViewController.m in Sources */,
+				04B9D849193A436100D2790A /* SearchResultCell.m in Sources */,
+				04B9D843193A350600D2790A /* BigIndenticonViewController.m in Sources */,
 				04B9D817193A2D7B00D2790A /* AppDelegate.m in Sources */,
-				04B9D81D193A2D7B00D2790A /* FirstViewController.m in Sources */,
+				04B9D840193A306900D2790A /* IdenticonView.m in Sources */,
+				04B9D846193A41A700D2790A /* SearchTableViewController.m in Sources */,
 				04B9D813193A2D7B00D2790A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
