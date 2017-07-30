@@ -1,4 +1,4 @@
 # identicon-ios
 Client side Identicon generation for iOS
 
-Don't even know if this will work
+Transform a 32 bit number into a completely random image. Rewrote some Java code.
